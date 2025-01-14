@@ -3,8 +3,8 @@
 //Program: Pre-Competition
 //Hardware: Bolt #SB-6B78
 
-//Start
-//Bolt will say Start across the LED's
+//Start & say Start
+//Bolt will say Start across the LED's & say it out loud
 //Driver: Gaige
 //Navigator: Gage
 
