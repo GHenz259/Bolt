@@ -1,33 +1,31 @@
-//Team Members: Gage & Gaige
+//Team Members: Gaige Jones & Gage Hensley
 //Date: 1.14.2025
 //Program: Pre-Competition
-//Hardware: Bolt #SB-6B78
+//Hardware: Bolt #SB-2FAE
 
-//Start & say Start
-//Bolt will say Start across the LED's & say it out loud
-//Driver: Gaige
-//Navigator: Gage
+//Start & Say Start
+//Bolt will say Start Acrossed the LED's
+//Driver: Gaige Jones
+//Navigator: Gage Hensley
 
+async function startProgram(){
+    await speak("start", true);
 
-
-
-
-//Red
-//Bolts LED will turn Red
-//Driver: Gage
-//Navigator: Gaige
+        await delay(1);
+	await scrollMatrixText('Start', { r: 66, g: 56, b: 255 }, 30, true)
+}
 
 
 
+//red
+//bolt led will turn red
+//driver: Gage Hensley
+//Navigator: Gaige Jones
 
+//Forward & Turn 90 degrees and forward
+//driver: Gaige Jones
+//Navigator: Gage Hensley
 
-//Forward & turn 90 degrees and forward again
-//Driver: Gaige
-//Navigator: Gage
-
-
-
-
-//Play sound
-//Driver: Gage
-//Navigator: Gaige
+//play sound
+//driver: Gage Hensley
+//Navigator: Gaige Jones
