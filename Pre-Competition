@@ -30,7 +30,7 @@ async function startProgram(){
 
   await delay(1);
   setSpeed(60);
-  await delay(2)
+  await delay(2);
   setSpeed(0);
   await roll((getHeading() + 90), 60, 1);
   setSpeed(30);
@@ -40,6 +40,17 @@ async function startProgram(){
 //play sound
 //driver: Gage Hensley
 //Navigator: Gaige Jones
+
+  await delay(1);
+  await Sound.Animal.Monkey.play(true);
+
+//Figure Eight
+//Driver: Gaige Jones
+//Navigator: Gage Hensley
+
+//Star
+//driver: Gaige Jones
+//Navigator: Gage Hensley
 
 //End Program
 }
