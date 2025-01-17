@@ -103,8 +103,8 @@ async function startProgram(){
 
 
 //Star
-//driver: Gaige Jones
-//Navigator: Gage Hensley
+//driver: Gage Hensley
+//Navigator: Gaige Jones
 
 	setMainLed({ r: 0, g: 133, b: 202 });
 	await turn(30);
