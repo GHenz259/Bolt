@@ -69,12 +69,24 @@ async function startProgram(){
     	await delay(1.6)
     	setSpeed(0)
     	await Sound.Animal.Elephant.play(true);
-	
+
     //Purple Checkpoint
     //LED's turn purple
     //Driver: Gage Hensley
     //Navigator: Gaige Jones
 
+      await delay(1);
+      await roll((getHeading() + 90), 35, 1);
+      await delay(1);
+      setSpeed(35);
+      await delay(1.5);
+      setSpeed(0);
+      await delay(1);
+      await roll((getHeading() + 45), 35, 1);
+      await delay(1);
+      setSpeed(35);
+      await delay(0.7);
+      setSpeed(0);
     //Sound #3 Checkpoint
     //Bolt makes sound of choice - update sound
     //Driver: Gaige Jones
