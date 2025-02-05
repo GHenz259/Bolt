@@ -1,4 +1,5 @@
 
+
 //Team Members: Gaige Jones & Gage Hensley
 //Date: 1.14.2025
 //Program: Pre-Competition
@@ -93,11 +94,22 @@ async function startProgram(){
     //Bolt makes sound of choice - update sound
     //Driver: Gaige Jones
     //Navigator: Gage Hensley
-
+      	await delay(1);
+      	await roll((getHeading() - 90), 35, 1);
+      	setSpeed(35);
+      	await delay(.6);
+      	setSpeed(0);
+      	await roll((getHeading() - 90), 35, 1);
+      	await delay(1);
+      	setSpeed(35);
+      	await delay(1)
+      	setSpeed(0);
+      	await Sound.Animal.Horse.play(true);
     //Blue Checkpoint
     //LED's turn blue
     //Driver: Gage Hensley
     //Navigator: Gaige Jones
+
 
     //Finish & Say finish
     //Bolt will say finished Acrossed the LED's & say it outloud
